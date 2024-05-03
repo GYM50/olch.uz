@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+}
+
+.mobile-header{
+    height: 100px;
+    background-color: aqua;
+    
+
+}
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.mabile-header .header-top h2{
+    color: red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header-top span {
+
+    font-size: 40px;
+}
+.headere-bottom span{
+    border: 2px solid ;
+    border-radius: 20%;
+    padding: 5px;
+    font-size: 15px;
+    text-decoration: black;
+    margin-left: 20px;
+    
+}
+.headere-bottom span{
+    position: relative;
+    left: 5%;
+    margin-top: 10%;
+}
+
+select option{
+   
+}
+.headere-bottom input{
+    width: 250px;
+    height: 25px;
+    margin-left: 50px;
+    margin-top: 1px;
+}
+.headere-bottom button{
+    position: relative;
+    right: 50px;
+  
+    border-radius: 25%;
+    width: 40px;
+    height: 25px;
+    color: wheat;
+    background-color: red;
+
+}
+.rasim img{
+    position: relative;
+    right: -25px; top: 20px;
+    border-radius: 20px;
+    width: 380px;
+    height: 200px;
+    
+
+}
+
+
+
+.footer-tab {
+  height: 60px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 10px;
+}
+.footer-tab .icon {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.sms{
+    height: 60px;
+    width: 60px;
+    background-color: red;
+    border-radius: 25px;
+    position: fixed;
+    right: 15px;
+    bottom: 100px;
+}
+.sms span{
+    font-size: 40px;
+    position: relative;
+    top: 10px;
+    left: 10px;
+
+}
+
+
+
+
